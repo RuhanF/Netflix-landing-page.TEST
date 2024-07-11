@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="style.css"> 
+    <title>NETFLIX</title> 
+</head>
+
+<body>
+      <div class="banner-wrap">
+         <div class="overlay"></div>
+         <div class="navbar">
+         <img src="./assets/logo.png" alt="">
+         <a href="https://www.netflix.com/za/login">Sing In</a>
+         </div>
+         <div class="banner-container">
+             <h1 class=".card-title">Unlimited movies,TV shows,and more.</h1>
+             <h2 class="card-subtitle">Watch anywhere. Cancel anytime.</h2>
+             <form>
+                 <h3 class="email-form-title">Reday to watch? Enter your email tocreate or restart you membership.</h3>
+                 <div class="get-started-form">
+                     <input type="text" placeholder="Email Address">
+                     <button>GET STARTED</button>
+                 </div>
+             </form>
+        </div>
+                  
+    <div class="info-container">
+        <div class="info">
+        <h1 class="card-title">Enjoy on your TV.</h1>
+        <p class="card-subtitle">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+    </div>
+
+    <div class="tv-container">  
+            <img src="./assets/tv.png" alt="">
+            <video autoplay playsinline muted loop>
+                <source src="./assets/netflix vidoe.m4v"
+                    type="video/mp4">
+            </video>
+        </div>
+
+
+
+<footer>
+        
+    <div class="footer-top">
+        <a href=""class="questions-title">Questions? Contact us.</a>
+    </div>
+
+        <ul class="list">
+            <li>FAQ</li>
+            <li>Help Centre</li>
+            <li>Account</li>
+            <li>Media Centre</li>
+            <li>Investor Relations</li>
+            <li>Jobs</li>
+            <li>Ways to Watch</li>
+            <li>Terms of Use</li>
+            <li>Privacy</li>
+            <li>Cookie Preferences</li>
+            <li>Corporate Information</li>
+            <li>Contact Us</li>
+            <li>Speed Test</li>
+            <li>Legal Notices</li>
+            <li>Only on Netflix</li>
+        </ul>
+    
+    <div class="language">
+        <i class="material-icons">language</i>
+        <select name="languages" id="languages">
+            <option value="English">English</option> 
+            <option value="Swahili">Swahili</option>
+        </select>
+    </div>
+     
+</footer>
+       
+
+</body>
+</html> 
